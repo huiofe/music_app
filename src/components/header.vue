@@ -12,10 +12,10 @@
   export default{
     name: 'header',
     data() {
-      return {
-        msg: ''
-      }
-    }
+      return {}
+    },
+    methods: {},
+    mounted() {}
   }
 </script>
 
@@ -23,8 +23,8 @@
 @import '../style/common.less';
 
 .header{
-  ul{ width: 100%; height: 0.9rem; padding: 0 20%; background: @mainBg;
-    li{ width: 33.33%; height: 100%; line-height: 0.9rem; text-align: center; float: left;
+  ul{ width: 100%; height: 1rem; padding: 0 20%; background: @mainBg;
+    li{ width: 33.33%; height: 100%; line-height: 1rem; text-align: center; float: left;
       a{ color: @white; font-size: @tabFontSize;}
     }
   }

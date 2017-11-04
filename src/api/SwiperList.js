@@ -14,5 +14,4 @@ export function getSwiperList() {
     _: 1508595963460
   });
   return jsonp(url,data,options);
-
 }
