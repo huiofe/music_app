@@ -24,8 +24,8 @@
 
 .header{
   ul{ width: 100%; height: 1rem; padding: 0 20%; background: @mainBg;
-    li{ width: 33.33%; height: 100%; line-height: 1rem; text-align: center; float: left;
-      a{ color: @white; font-size: @tabFontSize;}
+    li{ width: 33.33%; height: 1rem; text-align: center; float: left;
+      a{ color: @white; font-size: @tabFontSize; line-height: 1rem;}
     }
   }
 }
